@@ -1238,6 +1238,10 @@ body[dir="rtl"] .section-title i {
         flex-direction: row-reverse;
     }
     
+    body[dir="rtl"] .hero-block span {
+        text-align: right !important;
+    }
+    
     .hero-block i {
         font-size: 24px;
     }
@@ -1458,6 +1462,10 @@ body[dir="rtl"] .section-title i {
     body[dir="rtl"] .hero-block {
         text-align: right;
         flex-direction: row-reverse;
+    }
+    
+    body[dir="rtl"] .hero-block span {
+        text-align: right !important;
     }
     
     .hero-block i {
