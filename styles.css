@@ -1182,13 +1182,14 @@ body[dir="rtl"] .section-title i {
     .hero {
         margin-top: 64px;
         justify-content: flex-start;
-        min-height: 150vh !important;
-        height: auto;
-        padding: 60px 0 100px 0;
-        background: url('assets/backgrounds/front.png') center top/200% auto no-repeat !important;
-        background-attachment: scroll;
-        overflow: visible;
-        animation: none;
+        min-height: 100% !important;
+        height: auto !important;
+        padding: 60px 0 100px 0 !important;
+        background: url('assets/backgrounds/front.png') center center no-repeat !important;
+        background-size: 300% !important;
+        background-attachment: scroll !important;
+        overflow: visible !important;
+        animation: none !important;
     }
     
     .hero-content {
@@ -1406,13 +1407,14 @@ body[dir="rtl"] .section-title i {
     }
     
     .hero {
-        min-height: 160vh !important;
-        height: auto;
-        padding: 40px 0 100px 0;
-        background: url('assets/backgrounds/front.png') center top/280% auto no-repeat !important;
-        background-attachment: scroll;
-        overflow: visible;
-        animation: none;
+        min-height: 100% !important;
+        height: auto !important;
+        padding: 40px 0 100px 0 !important;
+        background: url('assets/backgrounds/front.png') center center no-repeat !important;
+        background-size: 400% !important;
+        background-attachment: scroll !important;
+        overflow: visible !important;
+        animation: none !important;
     }
     
     .hero-content {
