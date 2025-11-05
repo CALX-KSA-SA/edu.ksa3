@@ -1223,6 +1223,12 @@ body[dir="rtl"] .section-title i {
     
     .hero-block {
         font-size: 16px;
+        text-align: left;
+    }
+    
+    body[dir="rtl"] .hero-block {
+        text-align: right;
+        flex-direction: row-reverse;
     }
     
     .hero-block i {
@@ -1432,6 +1438,12 @@ body[dir="rtl"] .section-title i {
     
     .hero-block {
         font-size: 14px;
+        text-align: left;
+    }
+    
+    body[dir="rtl"] .hero-block {
+        text-align: right;
+        flex-direction: row-reverse;
     }
     
     .hero-block i {
