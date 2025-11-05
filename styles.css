@@ -1219,11 +1219,18 @@ body[dir="rtl"] .section-title i {
         grid-template-columns: 1fr;
         gap: 24px;
         margin-bottom: 30px;
+        justify-items: start;
+    }
+    
+    body[dir="rtl"] .hero-blocks {
+        justify-items: end;
     }
     
     .hero-block {
         font-size: 16px;
         text-align: left;
+        width: 100%;
+        max-width: 100%;
     }
     
     body[dir="rtl"] .hero-block {
@@ -1434,11 +1441,18 @@ body[dir="rtl"] .section-title i {
     
     .hero-blocks {
         gap: 20px;
+        justify-items: start;
+    }
+    
+    body[dir="rtl"] .hero-blocks {
+        justify-items: end;
     }
     
     .hero-block {
         font-size: 14px;
         text-align: left;
+        width: 100%;
+        max-width: 100%;
     }
     
     body[dir="rtl"] .hero-block {
