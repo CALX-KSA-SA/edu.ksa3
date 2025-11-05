@@ -1181,11 +1181,11 @@ body[dir="rtl"] .section-title i {
 
     .hero {
         margin-top: 64px;
-        justify-content: center;
-        min-height: 100vh;
-        padding: 60px 0;
-        background-size: cover;
-        background-position: center center;
+        justify-content: flex-start;
+        min-height: 150vh;
+        padding: 60px 0 80px 0;
+        background-size: 200% auto;
+        background-position: center top;
     }
     
     .hero-content {
@@ -1403,10 +1403,10 @@ body[dir="rtl"] .section-title i {
     }
     
     .hero {
-        min-height: 100vh;
-        padding: 50px 0;
-        background-size: cover;
-        background-position: center center;
+        min-height: 140vh;
+        padding: 50px 0 80px 0;
+        background-size: 250% auto;
+        background-position: center top;
     }
     
     .hero-content {
