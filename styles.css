@@ -266,12 +266,14 @@ body[dir="rtl"] .hero-description {
     transition: transform 0.3s ease;
     width: auto;
     max-width: fit-content;
+    justify-content: flex-start;
 }
 
 body[dir="rtl"] .hero-block {
     flex-direction: row-reverse;
     margin-left: auto;
     margin-right: 0;
+    justify-content: flex-end;
 }
 
 body[dir="ltr"] .hero-block {
@@ -1442,8 +1444,14 @@ body[dir="rtl"] .section-title i {
     }
     
     .hero-title {
-        font-size: 24px;
+        font-size: 28px;
         margin-bottom: 16px;
+        line-height: 1.3;
+        max-width: 95%;
+    }
+    
+    body[dir="rtl"] .hero-title {
+        max-width: 95%;
     }
     
     .hero-blocks {
