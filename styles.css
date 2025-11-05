@@ -301,11 +301,14 @@ body[dir="rtl"] .hero-block:hover {
 .hero-block span {
     line-height: 1.6;
     display: inline-block;
-    text-align: left;
 }
 
 body[dir="rtl"] .hero-block span {
-    text-align: right;
+    text-align: right !important;
+}
+
+body[dir="ltr"] .hero-block span {
+    text-align: left;
 }
 
 /* Remove all shape styling */
