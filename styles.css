@@ -781,6 +781,12 @@ body[dir="rtl"] .section-title i {
     line-height: 1.6;
 }
 
+.service-card p {
+    color: #ffffff;
+    font-weight: 600;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
 /* Differentiators Section */
 .differentiators-section {
     position: relative;
