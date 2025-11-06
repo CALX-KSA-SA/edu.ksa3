@@ -727,14 +727,14 @@ body[dir="rtl"] .section-title i {
 .service-card h3 {
     font-size: 24px;
     font-weight: 700;
-    color: #1a1a1a;
+    color: #ffffff;
     margin-bottom: 16px;
-    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.3);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .service-intro {
     font-size: 15px;
-    color: #2d3748;
+    color: #ffffff;
     margin-bottom: 16px;
     line-height: 1.6;
     font-weight: 500;
@@ -748,7 +748,7 @@ body[dir="rtl"] .section-title i {
 
 .service-card ul li {
     font-size: 15px;
-    color: #2d3748;
+    color: #ffffff;
     font-weight: 500;
     padding: 10px 0;
     padding-left: 28px;
@@ -760,14 +760,14 @@ body[dir="rtl"] .section-title i {
     content: '✓';
     position: absolute;
     left: 0;
-    color: var(--secondary-color);
+    color: #10b981;
     font-weight: 700;
     font-size: 18px;
 }
 
 .service-footer {
     font-size: 15px;
-    color: #2d3748;
+    color: #ffffff;
     font-weight: 500;
     margin-top: 16px;
     padding-top: 16px;
