@@ -1570,4 +1570,25 @@ body[dir="rtl"] .section-title i {
     .navbar {
         padding: 12px 0;
     }
+    
+    /* Mobile Performance Optimizations */
+    .services-section,
+    .why-saudi-section,
+    .differentiators-section,
+    .cta-section {
+        background-image: none !important;
+        background-color: #1e3a8a !important;
+    }
+    
+    .services-section::before,
+    .why-saudi-section::before,
+    .differentiators-section::before,
+    .cta-section::before {
+        display: none !important;
+    }
+    
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
 }
