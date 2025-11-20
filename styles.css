@@ -1576,7 +1576,7 @@ body[dir="rtl"] .section-title i {
     .why-saudi-section,
     .differentiators-section,
     .cta-section {
-        background-image: none !important;
+        background-image: url('assets/images/SGA_Autodesk_04.jpeg') !important; background-size: cover !important; background-position: center !important;
         background-color: #1e3a8a !important;
     }
     
