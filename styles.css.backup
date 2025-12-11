@@ -504,14 +504,14 @@ body[dir="rtl"] .section-title i {
 .circle-content {
     background: rgba(255, 255, 255, 0.92);
     backdrop-filter: blur(15px);
-    width: 230px;
-    height: 230px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 28px;
+    padding: 20px;
     text-align: center;
     box-shadow: 0 12px 40px rgba(37, 99, 235, 0.25);
     transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
@@ -532,18 +532,18 @@ body[dir="rtl"] .section-title i {
 }
 
 .circle-content h3 {
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 800;
     color: #1a1a1a;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
     line-height: 1.2;
 }
 
 .circle-content p {
-    font-size: 11px;
+    font-size: 13px;
     color: #374151;
     font-weight: 600;
-    line-height: 1.3;
+    line-height: 1.4;
 }
 
 @media (max-width: 768px) {
@@ -872,7 +872,7 @@ body[dir="rtl"] .section-title i {
 }
 
 .diff-card p {
-    font-size: 13px;
+    font-size: 15px;
     color: rgba(255, 255, 255, 0.9);
     line-height: 1.6;
 }
@@ -1053,12 +1053,12 @@ body[dir="rtl"] .section-title i {
     font-size: 17px;
     font-weight: 700;
     color: white;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .contact-card p {
-    font-size: 13px;
+    font-size: 15px;
     color: white;
     font-weight: 500;
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
@@ -1379,7 +1379,7 @@ body[dir="rtl"] .section-title i {
     }
     
     .diff-card p {
-        font-size: 11px;
+        font-size: 13px;
     }
     
     .vision-content {
@@ -1408,11 +1408,11 @@ body[dir="rtl"] .section-title i {
     }
     
     .contact-card h4 {
-        font-size: 11px;
+        font-size: 15px;
     }
     
     .contact-card p {
-        font-size: 11px;
+        font-size: 13px;
     }
     
     .contact-title {
@@ -1576,7 +1576,7 @@ body[dir="rtl"] .section-title i {
     .why-saudi-section,
     .differentiators-section,
     .cta-section {
-        background-image: url('assets/images/SGA_Autodesk_04.jpeg') !important; background-size: cover !important; background-position: center !important;
+        background-image: none !important;
         background-color: #1e3a8a !important;
     }
     
@@ -1590,120 +1590,5 @@ body[dir="rtl"] .section-title i {
     * {
         animation: none !important;
         transition: none !important;
-    }
-}
-
-/* Facilities Section */
-.facilities-section {
-    position: relative;
-    background: linear-gradient(135deg, rgba(245, 158, 11, 0.15), rgba(251, 191, 36, 0.10)), 
-                url('assets/backgrounds/ricardo-gomez-angel-bCKAATwhc1g-unsplash.jpg') center/cover no-repeat;
-    background-attachment: scroll;
-    padding: 100px 0;
-    overflow: hidden;
-}
-
-.facilities-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.92) 0%, rgba(249, 250, 251, 0.95) 100%);
-}
-
-.facilities-section .container {
-    position: relative;
-    z-index: 2;
-}
-
-.facilities-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-    margin: 50px 0;
-}
-
-.facility-card {
-    background: white;
-    padding: 40px 30px;
-    border-radius: 20px;
-    text-align: center;
-    transition: all 0.3s ease;
-    border: 2px solid transparent;
-    box-shadow: 0 8px 32px rgba(245, 158, 11, 0.15);
-    position: relative;
-    overflow: hidden;
-}
-
-.facility-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background: linear-gradient(90deg, #f59e0b, #fbbf24);
-    transform: scaleX(0);
-    transition: transform 0.3s ease;
-}
-
-.facility-card:hover::before {
-    transform: scaleX(1);
-}
-
-.facility-card:hover {
-    border-color: #f59e0b;
-    transform: translateY(-8px);
-    box-shadow: 0 16px 48px rgba(245, 158, 11, 0.25);
-}
-
-.facility-icon {
-    font-size: 48px;
-    margin-bottom: 20px;
-    color: #f59e0b;
-    transition: all 0.3s ease;
-}
-
-.facility-card:hover .facility-icon {
-    transform: scale(1.15) rotate(5deg);
-    color: #d97706;
-}
-
-.facility-card h3 {
-    font-size: 20px;
-    font-weight: 700;
-    color: #1f2937;
-    margin-bottom: 15px;
-    line-height: 1.4;
-}
-
-.facility-card p {
-    font-size: 16px;
-    color: #6b7280;
-    line-height: 1.7;
-    font-weight: 500;
-}
-
-@media (max-width: 768px) {
-    .facilities-grid {
-        grid-template-columns: 1fr;
-        gap: 24px;
-    }
-    
-    .facility-card {
-        padding: 32px 24px;
-    }
-    
-    .facility-icon {
-        font-size: 40px;
-    }
-    
-    .facility-card h3 {
-        font-size: 18px;
-    }
-    
-    .facility-card p {
-        font-size: 15px;
     }
 }
